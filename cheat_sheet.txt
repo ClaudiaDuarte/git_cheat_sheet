@@ -50,3 +50,4 @@ $ git reset <IDcommit>
 Amend last commit
 $ git commit --amend
 
+random test
