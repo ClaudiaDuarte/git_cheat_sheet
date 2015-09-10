@@ -15,6 +15,18 @@ Commit file
 $ git commit
 
 	options 
-	-m "message" 
+	-m "message" //add message to commit
+	-a 	     //add files to stage
 
-Create file .gitignore
+Check repo history
+$ git log
+	options
+	--graph		//branch graph
+	--oneline	
+	-p		//changes
+	-1 		//number of commits
+	--decorate
+
+Create alias
+$ git config --global alias.lg 'log --graph -- oneline --decorate -- all'	 
+
