@@ -50,3 +50,10 @@ $ git reset <IDcommit>
 Amend last commit
 $ git commit --amend
 
+Create Branch
+$ git branch <branchname>
+
+Change the branch
+$ git checkout <branchname>
+
+
