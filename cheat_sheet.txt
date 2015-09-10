@@ -29,4 +29,4 @@ $ git log
 
 Create alias
 $ git config --global alias.lg 'log --graph -- oneline --decorate -- all'	 
-
+some random stuff...
