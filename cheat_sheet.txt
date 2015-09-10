@@ -56,4 +56,6 @@ $ git branch <branchname>
 Change the branch
 $ git checkout <branchname>
 
-random stuff...
+Merge branch
+$ git merge <branchname>
+
