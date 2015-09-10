@@ -29,4 +29,24 @@ $ git log
 
 Create alias
 $ git config --global alias.lg 'log --graph -- oneline --decorate -- all'	 
-some random stuff...
+Differences 
+$ git diff
+	options
+	--staged		// changes between stage and last commit
+
+Reset local changes
+$ git checkout -- <filename> //reset local changes on file
+	                
+	          	              
+Reset the stage
+$git reset HEAD
+	options
+	<filename>      //unstage file
+Remove commit
+$ git reset <IDcommit>
+	options
+	--hard 		//remove changes
+
+Amend last commit
+$ git commit --amend
+
